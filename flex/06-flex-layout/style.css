@@ -24,3 +24,68 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/* MY ADDING */
+
+/* ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+  font-family: serif;
+} */
+
+.header, .footer {
+  padding: .5rem;
+}
+
+.links {
+  display: flex;
+  gap: 1rem;
+}
+a {
+  color: gray;
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eeeeee;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: fit-content;
+}
+
+.button-text {
+  padding: .25rem .5rem;
+  font-weight: bold;
+}
+.buttons{
+  display: flex;
+  margin-top: 1rem;
+  gap: 1rem;
+}

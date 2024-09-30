@@ -67,3 +67,34 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+/* MY ADDING */
+
+.modal {
+  display: flex;
+  padding: 1rem;
+}
+
+.icon {
+  flex-direction: column;
+  flex-shrink: 0;
+  justify-content: space-around;
+}
+
+.core {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 0 1rem;
+  gap: 1rem;
+}
+
+.close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.header h1 {
+  font-size: 1.5rem;
+  margin: 0;
+}
