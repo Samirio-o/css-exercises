@@ -27,3 +27,74 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+/* MY ADDING */
+
+.header {
+  display: flex;
+}
+
+.text-header {
+  display: flex;
+  align-content: center;
+  size: 32px;
+  font-weight: 900;
+  padding-left: 16px;
+}
+
+.main-content {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  width: 300px;
+}
+
+.sidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar ul li {
+  display: flex;
+  flex-direction: column;
+  padding: .25rem;
+  padding-left: 16px;
+}
+.sidebar ul li a {
+  text-decoration: none;
+  color: #eee;
+  font-size: 24px;
+}
+
+a:active
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.card-text {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 16px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* aggiungere il pin per fissarlo al fondo */
+}
+.text-footer{
+  display: flex;
+  align-items: center;
+}
