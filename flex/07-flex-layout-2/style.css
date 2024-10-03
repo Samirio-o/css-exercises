@@ -35,10 +35,15 @@ body {
 
 .text-header {
   display: flex;
-  align-content: center;
-  size: 32px;
+  align-items: center;
+  font-size: 32px;
   font-weight: 900;
-  padding-left: 16px;
+  margin-left: 16px;
+}
+
+.emoji {
+  display: inline-block;
+  width: 36px;
 }
 
 .main-content {
@@ -48,9 +53,9 @@ body {
 
 .sidebar {
   display: flex;
-  flex-direction: column;
   flex-shrink: 0;
-  width: 300px;
+  flex-direction: column;
+  padding: 16px;
 }
 
 .sidebar ul {
@@ -59,38 +64,29 @@ body {
   padding: 0;
 }
 
-.sidebar ul li {
-  display: flex;
-  flex-direction: column;
-  padding: .25rem;
-  padding-left: 16px;
-}
 .sidebar ul li a {
   text-decoration: none;
   color: #eee;
   font-size: 24px;
 }
 
-a:active
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  gap: 1rem;
+  padding: 48px;
+}
 
 .card {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  flex-direction: column;
-}
-
-.card-text {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 16px;
+  width: 400px;
+  padding: 1rem;
 }
 
 .footer {
   display: flex;
   justify-content: center;
-  position: absolute;
-  bottom: 0;
   width: 100%;
   /* aggiungere il pin per fissarlo al fondo */
 }
